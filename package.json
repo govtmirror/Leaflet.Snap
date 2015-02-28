@@ -5,11 +5,11 @@
   "keywords": ["Leaflet", "GIS"],
   "main": "leaflet.snap.js",
   "bugs": {
-    "url": "https://github.com/makinacorpus/Leaflet.Snap/issues"
+    "url": "https://github.com/nationalparkservice/Leaflet.Snap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/makinacorpus/Leaflet.Snap.git"
+    "url": "git://github.com/nationalparkservice/Leaflet.Snap.git"
   },
   "license": "MIT",
   "dependencies": {
