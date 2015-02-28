@@ -136,9 +136,6 @@
       L.Edit.Poly.prototype.initialize.call(this, poly, options);
       this._snapper = new L.Handler.MarkerSnap(map, options);
     },
-    addGuideLayer: function (layer) {
-      this._snapper.addGuideLayer(layer);
-    },
     _createMarker: function (latlng, index) {
       var marker = L.Edit.Poly.prototype._createMarker.call(this, latlng, index),
         isMiddle = index === undefined;
@@ -152,6 +149,9 @@
       }
 
       return marker;
+    },
+    addGuideLayer: function (layer) {
+      this._snapper.addGuideLayer(layer);
     }
   });
   L.Draw.Feature.SnapMixin = {
